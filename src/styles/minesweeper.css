@@ -1,0 +1,88 @@
+.ms {
+    padding: 8px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.ms-board {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ms-board__info {
+    width: 100px;
+}
+
+.ms-board__text {
+    font-size: 18px;
+    color: #111;
+}
+
+.ms-board__row {
+    display: flex;
+}
+
+[class*=col-ms-] {
+    padding: 12px;
+    border: 1px solid #acacac;
+}
+
+
+/* Colors for tiles */
+
+.col-ms-0 {
+    background-color: rgb(196, 196, 196);
+}
+
+.col-ms-1 {
+    background-color: #f21620;
+}
+
+.col-ms-2 {
+    background-color: #10ac84;
+}
+
+.col-ms-3 {
+    background-color: #5f27cd;
+}
+
+.col-ms-4 {
+    background-color: #d925cf;
+}
+
+.col-ms-5 {
+    background-color: #48dbfb;
+}
+
+.col-ms-6 {
+    background-color: #fd4964;
+}
+
+.col-ms-7 {
+    background-color: #72fa4e;
+}
+
+
+/* TODO add images*/
+
+
+/* 
+.col-ms-Blank {
+    background-color: rgb(196, 196, 196);
+}
+
+.col-ms-Mine {
+    background-color: crimson;
+}
+
+.col-ms-Exposed {
+    background-color: black;
+}
+
+.col-ms-Flagged {
+    background-color: blue;
+}
+
+.col-ms-Exploded {
+    background-color: red;
+} */
